@@ -1,0 +1,97 @@
+{
+    "dimension": 29,
+    "number of rotations": 3,
+    "hash table width": 20,
+    "load index": false,
+    "index path": "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/indices/",
+    "eigenvalue filepath" : "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/eigenvalues/32/", 
+    "number of partitions": 10,
+    "hash table parameters": [{
+	"k":8,
+	"l":40,
+	"bucket width":6.15,
+	"upper":9.2455,
+	"lower":0.0
+    },
+    {
+        "k":8,
+        "l":40,
+        "bucket width": 6.1,
+        "upper":11.1871,
+        "lower":9.2455
+        },
+        {
+            "k":8,
+            "l":40,
+            "bucket width":6.05,
+            "upper":13.5363,
+            "lower":11.1871
+            },
+            {
+                "k":8,
+                "l":40,
+                "bucket width":6,
+                "upper":16.3789,
+                "lower":13.5363
+                },
+                {
+                    "k":8,
+                    "l":40,
+                    "bucket width":5.95,
+                    "upper":19.8185,
+                    "lower":16.3789
+                    },
+                    {
+                        "k":8,
+                        "l":40,
+                        "bucket width":5.9,
+                        "upper":23.9804,
+                        "lower":19.8185
+                        },
+                        {
+                            "k":8,
+                            "l":40,
+                            "bucket width":5.9,
+                            "upper":29.0163,
+                            "lower":23.9804
+                            },
+                            {
+                                "k":8,
+                                "l":40,
+                                "bucket width":5.85,
+                                "upper":35.1097,
+                                "lower":29.0163
+                                },
+                                {
+                                    "k":8,
+                                    "l":40,
+                                    "bucket width":5.85,
+                                    "upper":42.4828,
+                                    "lower":35.1097
+                                    },
+                                    {
+                                        "k":8,
+                                        "l":40,
+                                        "bucket width":5.45,
+                                        "upper":558.16,
+                                        "lower":42.4828
+                                        }],
+    "second step": false,
+    "fast rotation": true,
+    "allow overwrite": true,
+    "compute ground truth": false,
+    "ground truth file":  "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/indices/hepmass_full_gnd.ivecs",
+	"testing size": 100,
+	"training size": 10000000,
+	"number of neighbors": 50,
+	"data filename": "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/hepmass/hepmass_data.fvecs",
+	"query filename": "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/hepmass/hepmass_queries.fvecs",
+	"kernel filename": "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/eigenvalues/hepmass_kernels.fvecs",
+	"result filename":"/media/mydrive/ann-codes/in-memory/EXPERIMENTS/result_hepmass.txt",
+    "candidate filename": "/media/mydrive/ann-codes/in-memory/FALCONN/candidates_index.ivecs",
+    "use single kernel": false,
+    "input transformed queries": false, 
+    "number of filters": 5, 
+    "number of query rows": 27,
+    "ratio of finalists": 0.10
+}

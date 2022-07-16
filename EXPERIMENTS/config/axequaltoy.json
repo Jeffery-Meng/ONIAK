@@ -1,0 +1,113 @@
+{
+    "dimension": 29,
+    "number of rotations": 3,
+    "hash table width": 20,
+    "load index": false,
+    "index path": "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/indices/",
+    "eigenvalue filepath" : "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/eigenvalues/128/", 
+    "number of partitions": 10,
+    "hash table parameters": [{
+	"k":10,
+	"l":10,
+	"bucket width":6.15,
+	"upper":9.2455,
+	"lower":0.0
+    },
+    {
+        "k":10,
+        "l":10,
+        "bucket width": 6.1,
+        "upper":11.1871,
+        "lower":9.2455
+        },
+        {
+            "k":10,
+            "l":10,
+            "bucket width":6.05,
+            "upper":13.5363,
+            "lower":11.1871
+            },
+            {
+                "k":10,
+                "l":10,
+                "bucket width":6,
+                "upper":16.3789,
+                "lower":13.5363
+                },
+                {
+                    "k":10,
+                    "l":10,
+                    "bucket width":5.95,
+                    "upper":19.8185,
+                    "lower":16.3789
+                    },
+                    {
+                        "k":10,
+                        "l":10,
+                        "bucket width":5.9,
+                        "upper":23.9804,
+                        "lower":19.8185
+                        },
+                        {
+                            "k":12,
+                            "l":10,
+                            "bucket width":5.9,
+                            "upper":29.0163,
+                            "lower":23.9804
+                            },
+                            {
+                                "k":12,
+                                "l":10,
+                                "bucket width":5.85,
+                                "upper":35.1097,
+                                "lower":29.0163
+                                },
+                                {
+                                    "k":12,
+                                    "l":10,
+                                    "bucket width":5.85,
+                                    "upper":42.4828,
+                                    "lower":35.1097
+                                    },
+                                    {
+                                        "k":12,
+                                        "l":10,
+                                        "bucket width":5.45,
+                                        "upper":558.16,
+                                        "lower":42.4828
+                                        },
+                                        {
+                                            "k":10,
+                                            "l":10,
+                                            "bucket width":6.15,
+                                            "upper":9.2455,
+                                            "lower":0.0
+                                            },
+                                            {
+                                                "k":10,
+                                                "l":10,
+                                                "bucket width":6.15,
+                                                "upper":9.2455,
+                                                "lower":0.0
+                                                }],
+    "second step": false,
+    "fast rotation": true,
+    "allow overwrite": true,
+    "compute ground truth": false,
+    "ground truth file":  "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/indices/made_1022_gnd.fvecs",
+	"testing size": 100,
+	"training size": 1000000,
+	"number of neighbors": 50,
+	"data filename": "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/made_norm/made_norm_1022.fvecs",
+	"query filename": "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/made_norm/made_norm_queries_1022.fvecs",
+	"kernel filename": "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/eigenvalues/mat_made_1022.fvecs",
+	"result filename":"/media/mydrive/ann-codes/in-memory/EXPERIMENTS/result_made_1022.txt",
+    "use single kernel": false,
+    "input transformed queries": false,
+    "number of filters": 1024, 
+    "number of query rows": 1022,
+    "ratio of finalists": 0.05, 
+    "candidate filename": "linear scan", 
+    "qn": 100
+
+}
